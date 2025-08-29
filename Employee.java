@@ -1,4 +1,3 @@
-// Base class
 class Employee
 {
     protected String name;
