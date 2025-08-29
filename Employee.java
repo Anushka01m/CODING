@@ -7,7 +7,6 @@ class Employee
         this.name = name;
         this.baseSalary = baseSalary;
     }
-
     public double calculateNetSalary() {
         return baseSalary; // Base class does not calculate net salary
     }
@@ -47,8 +46,10 @@ class SoftwareEngineer extends Engineer {
 }
 
 // Main class to test the implementation
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
         // Sample input
         String name = "John Doe"; // Example name
         double baseSalary = 800.0; // Example base salary
